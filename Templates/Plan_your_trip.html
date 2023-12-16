@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Plan your Trip</title>
+    <style>
+        .image {
+            display: block;
+            position: relative;
+            box-shadow: 5px 4px 3px;
+        }
+        .kerala{
+          position: relative;
+          box-shadow: 8px 8px 8px 8px;
+        }    
+    </style>
+  </head>
+  <body style="background-color: aquamarine;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://www.keralatourism.org/images/kt/kerala-tourism-title.png?d=18122017" width="auto" height="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Experience_kerala" style="color: brown;"><b>EXPERINCE KERALA</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/" style="color: blue;"><b>PLAN YOUR TRIP</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"   style="color:rgb(105, 7, 105)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   <b>DROPDOWN</b>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: aquamarine;">
+                  <li><a class="dropdown-item" href="/Where_to_go" style="color: black;"><b>WHERE TO GO</b></a></li>
+                  <li><a class="dropdown-item" href="/Where_to_stay" style="color: red;"><b>WHERE TO STAY</b></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/E_brochures" style="color: green;"><b>E BROCHURES</b></a></li>
+                  <li><a class="dropdown-item" href="/E_Newsletter" style="color: green;"><b>E NEWSLETTER</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Things_to_do" style="color: rgb(177, 158, 177);"><b>THINGS TO DO</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/About" style="color: rgb(177, 158, 177);"><b>ABOUT KERALA</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Festivals" style="color: rgb(177, 158, 177);"><b>FESTIVALS</b></a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <nav aria-label="breadcrumb" style="margin-left: 3%;">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/"><b>Home</b></a></li>
+          <li class="breadcrumb-item"><a href="https://www.keralatourism.org/traveller/"><b>Travel desk</b></a></li>
+          <li class="breadcrumb-item active" aria-current="page"><b>Plan Your Trip</b></li>
+        </ol>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.shutterstock.com/image-photo/beautiful-twilight-scene-kochi-chinese-260nw-1186363813.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.indianholidaytrip.com/upload/blog/Img_2679_202232031024_Kerala.jpg?w=1200" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.nayatrip.com/images/state/big/KERALA.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2015/04/A-Beach-Symphony.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.indigocruise.com/images/tourist-place/01a.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 style="color: rgb(192, 61, 61);font-size: 50px;font-weight: 600;padding-left: 15%;font-family: Arial, Helvetica, sans-serif;"><b>PLAN YOUR TRIP</b></h1>
+      <p style="color: black;text-align: justify;font-size: 25px;font-weight: 400;">Want to go on a trip to Kerala but too lazy to plan? Just by providing a few simple details about the trip, you’ll be guided to a well planned and organized tour using our Intelligent tour planner. All your queries shall be answered here.</p>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: -9%;">
+              <a href="Where_to_stay/"><img src="https://www.keralatourism.org/images/accredited-service-providers.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h1 style="color: blue;font-style: italic;font-weight: 400;font-size: 30px;">Where to stay</h1>
+                <p class="card-text" style="color: rgb(10, 0, 0);font-size: 20px;font-weight: 400;">Get familiar with Kerala Tourism-accredited hotels, resorts, ayurveda centres, houseboats and tour operators.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -28%;">
+              <a href="https://www.keralatourism.org/travelcare/"><img src="https://www.keralatourism.org/images/message-board-320x180.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <h1 style="color: rgb(22, 22, 161);font-style: italic;font-weight: 400;font-size: 30px;">Tavel Care</h1>
+                <p class="card-text" style="color: rgb(20, 1, 1);font-size: 20px;font-weight: 400;">Post queries related to your holiday requirements in Kerala and get answers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -49%;">
+              <a href="https://www.keralatourism.org/keralatourism-tourist-guides/"><img src="https://www.keralatourism.org/images/keralatourism-tourist-guides.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <h1 style="color: rgb(27, 27, 153);font-style: italic;font-weight: 400;font-size: 30px;">Tourist Guide</h1>
+                <p class="card-text" style="color: rgb(10, 0, 0);font-size: 20px;font-weight: 400;">We want our guests to have the best and safest time possible when they visit Kerala. Hence, we provide you with a list of accredited tourist guides.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: 81%;margin-top: -37%;">
+              <a href="https://www.keralatourism.org/routes-locations/"><img src="https://www.keralatourism.org/images/routes-and-locations.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <h1 style="color: blue;font-style: italic;font-weight: 400;font-size: 30px;">Routes & Locations</h1>
+                <p class="card-text" style="color: rgb(10, 0, 0);font-size: 20px;font-weight: 400;">Find locations numbering around 22,000 in Kerala and also the distance, before you set out on a journey by road in the State.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -9%;">
+             <a href="#"><img src="https://www.keralatourism.org/images/tour-planner.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <h1 style="color: blue;font-style: italic;font-weight: 400;font-size: 30px;">Tour Planner</h1>
+                <p class="card-text" style="color: rgb(10, 0, 0);font-size: 20px;font-weight: 400;">Using Intelligent Itinerary Planner, you can create a Kerala travel itinerary of your own in minutes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left:-28% ;">
+              <a href="https://www.keralatourism.org/ebrochures/archives"><img src="https://www.keralatourism.org/images/sitemap/e_brochures20190416081050.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                 <p style="color: purple;font-size: 25px;font-weight: 400;" >E brochure's Kerala Selected Destinations</p>
+                <p class="card-text" style="color: black;font-size: 20px;font-weight: 400;">Know Kerala Destinations through our collection of e-brochures. Explore our recommended reading in </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem; margin-left: -49%;margin-top: 3%;">
+              <a href="https://www.keralatourism.org/newsletter"><img src="https://www.keralatourism.org/images/KeralaTourism-share-image.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <p style="color: purple;font-size: 25px;font-weight: 400;">monthly news-letter</p>
+                <p class="card-text"  style="color: black;font-size: 20px;font-weight: 400;">Monthly newsletter of Kerala Tourism</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left:81%;margin-top:-34%;">
+              <a href="https://www.keralatourism.org/destination/"><img src="https://www.keralatourism.org/images/sitemap/where_to_go20190412062659.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                  <p style="color: purple;font-size: 25px;font-weight: 400;">Tourist destinations of Kerala. Category listing page</p>
+                <p class="card-text" style="color: black;font-size: 20px;font-weight: 400;">Details of tourist destinations in Kerala.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      <br>
+      <h1 style="color: blue;font-weight: 600;font-size: 50px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: center;">FOR TRADE</h1>
+      <p style="color: black;font-size: 25px;font-weight: 400;font-style: italic;text-align: justify;">As part of the official initiative of Kerala Tourism, we provide a compiled list of links toseamlessly conduct all business and service transactions for travellers and tourism industry personnel. The purpose of the initiative is to maximise the satisfaction of all our visitors and ensure ease of business in the State and tourism industry. Travellers and the tourism industry shall find all relevant links for accreditation procedures, e-submission forms, classification schemes, incentives and subsidies here.</p>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -11%;" >
+              <a href="https://www.keralatourism.org/newsletter/news/2001/classification-for-houseboats/868"><img src="https://www.keralatourism.org/images/house-boat-business.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Classifications of Houseboats</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -30%;">
+              <a href="https://www.keralatourism.org/ayurveda-centres"><img src="https://www.keralatourism.org/images/Classification-of-Ayurveda-Centres.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Classification of Ayurveda Centers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -49%;">
+              <a href="https://www.keralatourism.org/accreditation/login"><img src="https://www.keralatourism.org/images/tour-operator-300x180.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Online Tour operator accreditation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: 81%;margin-top: -50%;">
+              <a href="https://www.keralaadventure.org/online-registration/"><img src="https://www.keralatourism.org/images/adventure-tourism-320x500.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Online Registrations for Adventure Tourism</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -10%;">
+              <a href="https://homestaykerala.org/grihasthali/"><img src="https://www.keralatourism.org/images/traditional-kerala-architectur-businees.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Grihasthali-Guidelines</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -28%;">
+              <a href="https://www.listinkerala.com/category/restaurant"><img src="https://www.keralatourism.org/images/image9_8.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Classifications of Restaurant</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -47%;">
+              <a href="https://www.keralatourism.org/touriststatistics/"><img src="https://www.keralatourism.org/images/Tourist-Statistics.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Tourist-Statistics</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-top: -24%;margin-left: 81%;">
+              <a href="https://www.keralatourism.org/tourism-vision/"><img src="https://www.keralatourism.org/images/Tourism-Vision-2.jpg?d=16112021" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Tourism Vision</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -10%;">
+              <a href="https://keralafarmtourism.com/about-us.html"><img src="https://www.keralatourism.org/images/farm-activity-businees.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Farm Tourism</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -30%;">
+              <a href="https://www.keralatourism.org/citizens-charter.pdf"><img src="https://www.keralatourism.org/images/Citizens-Charter.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Citizens-Charter</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -48%;">
+              <a href="ttps://www.keralatourism.org/tourism-act/"><img src="https://www.keralatourism.org/images/Tourism-act-1.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Tourism Act</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-top: -47%;margin-left: 80%;">
+              <a href="https://www.keralatourism.org/serviced-villas"><img src="https://www.keralatourism.org/images/Approval-of-Serviced-Villas.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Approved of serviced Villas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -10%;">
+              <a href="http://keralatourism.gov.in/classificationofhomestays/Classified_Homestay.php"><img src="https://www.keralatourism.org/images/Classification-of-Homestays.jpg" class="card-img-top" alt="..."></a>                                                
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Classification-of-Homestays</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -29%;">
+              <a href="https://www.keralatourism.org/responsible-tourism/rt-classification/29"><img src="https://www.keralatourism.org/images/new-folder/rt-classification320x180.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">RT Classifications for Hotels & Resorts</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: -47%;">
+              <a href="https://www.tripadvisor.in/Attractions-g297631-Activities-c52-Kerala.html"><img src="https://www.keralatourism.org/images/new-folder/amusement-park-320x180.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Approval of Amusement-parks</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;margin-left: 81%;margin-top: -23%;">
+              <a href="https://www.slideshare.net/Meghaaaaaaaaaa/tourism-policy-of-kerala"><img src="https://www.keralatourism.org/images/tourism-policy-2017.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <p class="card-text" style="color: brown;font-size: 25px;font-weight: 600;font-style: italic;">Kerala Tourism Policy </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      
+      
+  <a href="https://www.keralatourism.org/destination/jatayupara-chadayamangalam/262"><img src="https://media.easemytrip.com/media/Blog/India/637598691713888246/637598691713888246OjaZ2J.jpg" width="650px" height="400px" style="margin-left: 0%;margin-top: -3%;"></a>
+   <a href="https://www.keralatourism.org/destination/kollam-aquatourism/264"><img src="https://worldwidetours.in/wp-content/uploads/2021/01/Scenic-beauty-of-kerala-1.jpg" width="580px" height="400px" style="margin-top: -35%;margin-left: 54%;"></a>   
+      <br><br>
+      <div class="container">
+        <div class="row">
+
+          <div class="col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/entire-kerala.jpg" width="350px" height="200px" class="image">
+          </div>
+
+          <div class="col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/central-kerala.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col">
+            <img src="https://www.keralatourism.org/images/homecontentimage/backwater.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/south-kerala.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/hill-station.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/honeymoon.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/beach.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-7.jpg" width="350" height="200" class="image">
+          </div>
+
+          <div class="col" style="margin-top: 2%;">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-6.jpg" width="350" height="200" class="image">
+          </div>
+
+        </div>
+      </div> 
+      <br><br>
+      <h1 style="font-size: 50px;font-weight: 800;color: rgb(154, 154, 80);text-align: center;">KERALA STATE</h1><br>
+      <div class="map" style="height:800px;width: 700px;margin-left:10% ;">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Kerala_district_map.PNG" width="100%" height="100%" class="kerala">
+        
+      </div>
+      <div class="district" style="margin-top:-50%;margin-left:70% ;width:350px ;height:600px;border: 7px solid black;">
+        <ol style="font-size: 25px;padding-left: 14%;">
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Thiruvananthapuram</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Kollam</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Pathanamthitta</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Alappuzha</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Kottayam</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Idukki</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Ernakulam</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Thrissur</b></a>
+          </li>
+
+          <li>
+            <a href="About.html" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Palakkad</b></a>
+          </li>
+
+          <li>
+            <a href="/About" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Malappuram</b></a>
+          </li>
+
+          <li>
+            <a href="/About" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Kozhikode</b></a>
+          </li>
+
+          <li>
+            <a href="/About" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Wayanad</b></a>
+          </li>
+
+          <li>
+            <a href="/About" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Kannur</b></a>
+          </li>
+
+          <li>
+            <a href="/About" style="text-decoration: none;cursor: pointer;color: rgb(149, 32, 32);font-size: 25px;font-family: Arial, Helvetica, sans-serif;font-weight: 400;" ><b>Kasaragod</b></a>
+          </li>
+        </ol>
+      </div>
+      <br>
+      
+
+
+
+
+     <br><br><br><br><br><br><br><br><br><br>
+
+      <footer style="background-color: rgb(218, 81, 134);"><div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Explore</h3>
+            <p>
+              Classification Schemes
+              Governmental Affairs
+              Media Room
+              Tourism Events
+              Maps
+              Site Map</p>
+          </div>
+          <div class="col">
+            <h3>Travel Hub</h3>
+            <p>
+              Kerala at a Glance
+              Travel Care
+              Where to Stay
+              How to?
+              Travel Tips</p>
+          </div>
+          <div class="col">
+            <h3>Nature</h3>
+            <p>
+              Hills
+              Backwaters
+              Beaches
+              Wildlife
+              Waterfalls</p>
+          </div>
+          <div class="col">
+            <h3>Places</h3>
+            <p>
+              Munnar
+              Wayanad
+              Kovalam
+              Periyar
+              Varkala</p>
+          </div>
+          <div class="col">
+            <h3>Specialities</h3>
+            <p>
+              Ayurveda
+              Monsoon
+              Houseboat
+              Kerala Food
+              Festivals</p>
+          </div>
+          <div class="col">
+            <h3>Videos/Photos</h3>
+            <p>
+              Videos
+              Photos
+              360° Videos
+              Royalty Free Photos
+              Wallpapers</p>
+          </div>
+        </div>
+      </footer>  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
